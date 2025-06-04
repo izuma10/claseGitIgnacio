@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    margin: 0;
+}
+
+.row1 {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    border: 4px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    font-weight: bold;
+    width: 200px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pp {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
+
+.pg {
+    background-color: lightgreen;
+    padding: 80px;
+    width: auto;
+    margin: auto;
+}
+
+.mp {
+    background-color: lightcoral;
+    margin: 10px;
+}
+
+.mg {
+    background-color: lightyellow;
+    margin: 40px;
+}
